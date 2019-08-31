@@ -1,0 +1,41 @@
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.petCard {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border: black solid 4mm;
+}
+
+
+img {
+    width: 200px;
+
+}
+
+#button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.all_button {
+    background-color: lavender;
+}
+
+.Cats {
+    background-color: blueviolet;
+}
+
+.Dogs {
+    background-color: teal;
+}
+
+.Dinos {
+    background-color: crimson;
+}
