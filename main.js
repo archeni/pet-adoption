@@ -220,7 +220,7 @@ const petShow = (pets) => {
         const onePet = pets[i];
         const stringDom = `
             <div class="petCard">
-                <h2>${onePet.name}</h2>
+                <h2 class="cardName">${onePet.name}</h2>
                 <img src="${onePet.imageUrl}">
                 <p>${onePet.color}</p>
                 <p>${onePet.specialSkill}</p>
