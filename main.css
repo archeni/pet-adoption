@@ -1,7 +1,6 @@
 #card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex-flow: row wrap;
 }
 
@@ -28,14 +27,30 @@ img {
     background-color: lavender;
 }
 
+.cat {
+    background-color: blueviolet;
+}
+
 .Cats {
     background-color: blueviolet;
+}
+
+.dog {
+    background-color: teal;
 }
 
 .Dogs {
     background-color: teal;
 }
 
+.dino {
+    background-color: crimson;
+}
+
 .Dinos {
     background-color: crimson;
+}
+
+.cardName {
+    background-color: grey;
 }
